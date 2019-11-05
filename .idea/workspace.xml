@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f768c48-96d8-434e-b3ed-ba936681994b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Launcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controls/KeyboardControls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Rotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/renderers/PolygonRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/spaceroids/client/model</dir>
+      <dir>$PROJECT_DIR$/src/main/java</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/controls/Controls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/models/Transform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Transform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/models/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/models/Asteroid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameScene.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/engine/renderers/Renderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/SceneRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Rotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/engine/renderers/PolygonRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/controls/KeyboardControls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/models/Player.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="773" />
+    <option name="y" value="25" />
+    <option name="width" value="774" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spaceroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spaceroids" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spaceroids" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spaceroids" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spaceroids" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spaceroids" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spaceroids" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="renderers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="transform" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spaceroids.Application" />
+      <module name="spaceroids" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spaceroids.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f768c48-96d8-434e-b3ed-ba936681994b" name="Default Changelist" comment="" />
+      <created>1572365213413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572365213413</updated>
+      <workItem from="1572365214823" duration="8388000" />
+      <workItem from="1572408919667" duration="2163000" />
+      <workItem from="1572416530412" duration="139000" />
+      <workItem from="1572684555907" duration="7930000" />
+      <workItem from="1572714828343" duration="4697000" />
+      <workItem from="1572768300677" duration="12223000" />
+      <workItem from="1572795997521" duration="750000" />
+      <workItem from="1572807386706" duration="1403000" />
+      <workItem from="1572849183066" duration="4217000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41910000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1547" height="875" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27914724" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32780084" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39972338" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32780084" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24983345" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/Launcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/Game.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/shape/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/shape/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="117" column="37" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1503">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="247" column="11" selection-start-line="247" selection-start-column="11" selection-end-line="247" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/shape/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3210">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/awt/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controls/Controls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/collections/ObservableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/Transform.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Renderer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="5214" column="24" selection-start-line="5214" selection-start-column="24" selection-end-line="5214" selection-end-column="24" />
+          <folding>
+            <element signature="e#45769#45770#0" expanded="true" />
+            <element signature="e#45811#45812#0" expanded="true" />
+            <element signature="e#231136#231137#0" expanded="true" />
+            <element signature="e#231179#231180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/transform/Affine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="826" column="16" selection-start-line="826" selection-start-column="16" selection-end-line="826" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/SceneRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/renderers/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/canvas/GraphicsContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="970" column="31" selection-start-line="970" selection-start-column="31" selection-end-line="970" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;class#GraphicsContext#0" />
+            <element signature="e#23647#23924#0" />
+            <element signature="e#24499#24912#0" />
+            <element signature="e#24922#25371#0" />
+            <element signature="e#25381#26619#0" />
+            <element signature="e#26699#27868#0" />
+            <element signature="e#27460#27612#1" />
+            <element signature="e#28322#28981#0" />
+            <element signature="e#28457#28945#1" />
+            <element signature="e#28595#28861#1" />
+            <element signature="e#28756#28820#1" />
+            <element signature="e#28987#29188#0" />
+            <element signature="e#29194#29598#0" />
+            <element signature="e#29283#29547#0" />
+            <element signature="e#29604#29950#0" />
+            <element signature="e#29956#30125#0" />
+            <element signature="e#30131#30569#0" />
+            <element signature="e#30621#31019#0" />
+            <element signature="e#30851#31013#1" />
+            <element signature="e#31024#32179#0" />
+            <element signature="e#31404#31694#1" />
+            <element signature="e#31445#31586#1" />
+            <element signature="e#31764#31820#1" />
+            <element signature="e#31868#31937#0" />
+            <element signature="e#32185#32638#0" />
+            <element signature="e#32644#33308#0" />
+            <element signature="e#33314#33809#0" />
+            <element signature="e#33815#33971#0" />
+            <element signature="e#33977#34130#0" />
+            <element signature="e#34165#34696#0" />
+            <element signature="e#34219#34690#1" />
+            <element signature="e#34702#34924#0" />
+            <element signature="e#34930#36127#0" />
+            <element signature="e#35007#35069#0" />
+            <element signature="e#35532#36121#1" />
+            <element signature="e#35878#36027#1" />
+            <element signature="e#36133#36929#0" />
+            <element signature="e#36298#36550#1" />
+            <element signature="e#36501#36540#1" />
+            <element signature="e#36556#36626#1" />
+            <element signature="e#36650#36804#1" />
+            <element signature="e#36935#37225#0" />
+            <element signature="e#37295#37965#0" />
+            <element signature="e#38044#38806#0" />
+            <element signature="e#38044#39002#0" />
+            <element signature="e#38870#38996#1" />
+            <element signature="e#39008#39174#0" />
+            <element signature="e#39008#39296#0" />
+            <element signature="e#39302#39450#0" />
+            <element signature="e#39302#39564#0" />
+            <element signature="e#39839#40351#0" />
+            <element signature="e#39839#40646#0" />
+            <element signature="e#40652#41006#0" />
+            <element signature="e#40652#41286#0" />
+            <element signature="e#41292#41774#0" />
+            <element signature="e#41292#42120#0" />
+            <element signature="e#42126#42405#0" />
+            <element signature="e#42126#42695#0" />
+            <element signature="e#42701#43270#0" />
+            <element signature="e#42701#43873#0" />
+            <element signature="e#43345#43390#1" />
+            <element signature="e#43879#44006#0" />
+            <element signature="e#44088#44681#0" />
+            <element signature="e#44088#44956#0" />
+            <element signature="e#44772#44950#1" />
+            <element signature="e#44962#45301#0" />
+            <element signature="e#45387#45858#0" />
+            <element signature="e#45387#46165#0" />
+            <element signature="e#45960#46159#1" />
+            <element signature="e#46171#46554#0" />
+            <element signature="e#46643#47123#0" />
+            <element signature="e#46643#47300#0" />
+            <element signature="e#47204#47294#1" />
+            <element signature="e#47306#47690#0" />
+            <element signature="e#47761#48235#0" />
+            <element signature="e#47761#48420#0" />
+            <element signature="e#48320#48414#1" />
+            <element signature="e#48426#48802#0" />
+            <element signature="e#48877#49450#0" />
+            <element signature="e#48877#49849#0" />
+            <element signature="e#49501#49563#0" />
+            <element signature="e#49680#49843#1" />
+            <element signature="e#49724#49833#1" />
+            <element signature="e#49855#50191#0" />
+            <element signature="e#50273#50768#0" />
+            <element signature="e#50273#51239#0" />
+            <element signature="e#50869#51233#1" />
+            <element signature="e#50916#51141#0" />
+            <element signature="e#51245#51640#0" />
+            <element signature="e#51725#52217#0" />
+            <element signature="e#51725#52701#0" />
+            <element signature="e#52324#52695#1" />
+            <element signature="e#52372#52600#0" />
+            <element signature="e#52707#53098#0" />
+            <element signature="e#53186#53770#0" />
+            <element signature="e#53186#54175#0" />
+            <element signature="e#53822#53884#0" />
+            <element signature="e#54003#54169#1" />
+            <element signature="e#54048#54159#1" />
+            <element signature="e#54181#54555#0" />
+            <element signature="e#54639#55617#0" />
+            <element signature="e#54639#57065#0" />
+            <element signature="e#55718#55846#1" />
+            <element signature="e#55761#55800#1" />
+            <element signature="e#55852#56931#1" />
+            <element signature="e#55943#56367#1" />
+            <element signature="e#56045#56300#1" />
+            <element signature="e#56067#56099#0" />
+            <element signature="e#56217#56282#1" />
+            <element signature="e#56306#56353#1" />
+            <element signature="e#56394#56542#1" />
+            <element signature="e#56441#56488#1" />
+            <element signature="e#56548#56921#1" />
+            <element signature="e#56635#56724#1" />
+            <element signature="e#56730#56907#1" />
+            <element signature="e#57071#57578#0" />
+            <element signature="e#57071#57767#0" />
+            <element signature="e#57654#57690#1" />
+            <element signature="e#57773#58316#0" />
+            <element signature="e#57773#58703#0" />
+            <element signature="e#58380#58426#0" />
+            <element signature="e#58582#58697#1" />
+            <element signature="e#58709#59108#0" />
+            <element signature="e#59196#59621#0" />
+            <element signature="e#59196#59890#0" />
+            <element signature="e#59701#59884#1" />
+            <element signature="e#59896#60222#0" />
+            <element signature="e#60292#61309#0" />
+            <element signature="e#60292#61607#0" />
+            <element signature="e#61460#61601#1" />
+            <element signature="e#61613#62013#0" />
+            <element signature="e#62118#63327#0" />
+            <element signature="e#62118#63887#0" />
+            <element signature="e#63438#63881#1" />
+            <element signature="e#63487#63783#0" />
+            <element signature="e#63893#64307#0" />
+            <element signature="e#64396#64890#0" />
+            <element signature="e#64396#65468#0" />
+            <element signature="e#65007#65462#1" />
+            <element signature="e#65059#65355#0" />
+            <element signature="e#65474#65862#0" />
+            <element signature="e#65948#66545#0" />
+            <element signature="e#66671#67272#0" />
+            <element signature="e#67402#68117#0" />
+            <element signature="e#67402#68296#0" />
+            <element signature="e#68302#69037#0" />
+            <element signature="e#68302#69220#0" />
+            <element signature="e#69227#69791#0" />
+            <element signature="e#69227#70215#0" />
+            <element signature="e#69906#70208#1" />
+            <element signature="e#69975#70039#1" />
+            <element signature="e#70045#70109#1" />
+            <element signature="e#70221#70644#0" />
+            <element signature="e#70729#71107#0" />
+            <element signature="e#70729#71190#0" />
+            <element signature="e#71196#71855#0" />
+            <element signature="e#71196#72103#0" />
+            <element signature="e#72109#72801#0" />
+            <element signature="e#72109#73148#0" />
+            <element signature="e#73016#73074#1" />
+            <element signature="e#73154#73907#0" />
+            <element signature="e#73154#74372#0" />
+            <element signature="e#74218#74276#1" />
+            <element signature="e#74378#75299#0" />
+            <element signature="e#74378#75878#0" />
+            <element signature="e#75701#75759#1" />
+            <element signature="e#75884#78653#0" />
+            <element signature="e#75884#79011#0" />
+            <element signature="e#78777#78844#1" />
+            <element signature="e#78966#79005#1" />
+            <element signature="e#79017#79166#0" />
+            <element signature="e#79172#85481#0" />
+            <element signature="e#79331#79496#1" />
+            <element signature="e#79502#79855#1" />
+            <element signature="e#79608#79701#0" />
+            <element signature="e#79744#79789#0" />
+            <element signature="e#79864#79894#0" />
+            <element signature="e#81062#81099#1" />
+            <element signature="e#81222#81259#1" />
+            <element signature="e#81718#81752#0" />
+            <element signature="e#82098#82135#1" />
+            <element signature="e#82332#82369#1" />
+            <element signature="e#82378#82440#0" />
+            <element signature="e#82531#82572#1" />
+            <element signature="e#82581#82614#0" />
+            <element signature="e#83431#83491#0" />
+            <element signature="e#83771#84238#1" />
+            <element signature="e#84244#85454#1" />
+            <element signature="e#84258#84276#0" />
+            <element signature="e#85487#86504#0" />
+            <element signature="e#85487#87154#0" />
+            <element signature="e#87160#87914#0" />
+            <element signature="e#87160#88773#0" />
+            <element signature="e#88779#89506#0" />
+            <element signature="e#88779#91934#0" />
+            <element signature="e#89716#90627#1" />
+            <element signature="e#89757#90598#0" />
+            <element signature="e#90083#90224#1" />
+            <element signature="e#90245#90296#0" />
+            <element signature="e#90719#91391#1" />
+            <element signature="e#90807#90984#1" />
+            <element signature="e#90990#91349#1" />
+            <element signature="e#91108#91209#0" />
+            <element signature="e#91397#91440#1" />
+            <element signature="e#91453#91816#0" />
+            <element signature="e#91594#91770#1" />
+            <element signature="e#91612#91668#0" />
+            <element signature="e#91940#92267#0" />
+            <element signature="e#91940#92413#0" />
+            <element signature="e#92337#92407#1" />
+            <element signature="e#92419#93063#0" />
+            <element signature="e#93139#93791#0" />
+            <element signature="e#93871#94725#0" />
+            <element signature="e#93871#94978#0" />
+            <element signature="e#94984#95262#0" />
+            <element signature="e#94984#95498#0" />
+            <element signature="e#95326#95390#0" />
+            <element signature="e#95504#95928#0" />
+            <element signature="e#95504#96144#0" />
+            <element signature="e#96027#96138#1" />
+            <element signature="e#96150#96722#0" />
+            <element signature="e#96150#96950#0" />
+            <element signature="e#96820#96944#1" />
+            <element signature="e#96956#97534#0" />
+            <element signature="e#96956#97707#0" />
+            <element signature="e#97634#97701#1" />
+            <element signature="e#97713#98291#0" />
+            <element signature="e#97713#98460#0" />
+            <element signature="e#98389#98454#1" />
+            <element signature="e#98466#99050#0" />
+            <element signature="e#98466#99223#0" />
+            <element signature="e#99150#99217#1" />
+            <element signature="e#99229#100031#0" />
+            <element signature="e#99229#100357#0" />
+            <element signature="e#100229#100351#1" />
+            <element signature="e#100363#101180#0" />
+            <element signature="e#100363#101510#0" />
+            <element signature="e#101380#101504#1" />
+            <element signature="e#101516#102234#0" />
+            <element signature="e#101516#102504#0" />
+            <element signature="e#102406#102498#1" />
+            <element signature="e#102510#103234#0" />
+            <element signature="e#102510#103508#0" />
+            <element signature="e#103408#103502#1" />
+            <element signature="e#103514#104122#0" />
+            <element signature="e#103514#104257#0" />
+            <element signature="e#104263#105007#0" />
+            <element signature="e#104263#105206#0" />
+            <element signature="e#105113#105200#1" />
+            <element signature="e#105212#105918#0" />
+            <element signature="e#105212#106121#0" />
+            <element signature="e#106026#106115#1" />
+            <element signature="e#106127#106854#0" />
+            <element signature="e#106127#107059#0" />
+            <element signature="e#106963#107053#1" />
+            <element signature="e#107065#107708#0" />
+            <element signature="e#107065#107918#0" />
+            <element signature="e#107924#108717#0" />
+            <element signature="e#108845#109797#0" />
+            <element signature="e#108845#110043#0" />
+            <element signature="e#110081#110618#0" />
+            <element signature="e#110081#120349#0" />
+            <element signature="e#110689#120320#1" />
+            <element signature="class#110716:120309" />
+            <element signature="method#setArgb#0;class#110716:120309" />
+            <element signature="method#setColor#0;class#110716:120309" />
+            <element signature="method#writePixelBuffer#0;class#110716:120309" />
+            <element signature="method#checkBounds#0;class#110716:120309" />
+            <element signature="e#112857#112917#1" />
+            <element signature="e#112985#113975#1" />
+            <element signature="e#113107#113922#1" />
+            <element signature="e#113159#113896#0" />
+            <element signature="e#114007#114185#1" />
+            <element signature="e#114222#114329#1" />
+            <element signature="e#114366#114473#1" />
+            <element signature="method#setPixels#0;class#110716:120309" />
+            <element signature="e#115342#115591#1" />
+            <element signature="method#setPixels#1;class#110716:120309" />
+            <element signature="e#116874#117123#1" />
+            <element signature="method#setPixels#2;class#110716:120309" />
+            <element signature="e#118358#118607#1" />
+            <element signature="method#setPixels#3;class#110716:120309" />
+            <element signature="e#119592#119969#1" />
+            <element signature="e#120355#120739#0" />
+            <element signature="e#120355#121133#0" />
+            <element signature="e#120885#120965#1" />
+            <element signature="e#120971#121127#1" />
+            <element signature="e#121139#121801#0" />
+            <element signature="e#121930#122707#0" />
+            <element signature="e#121930#122990#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/javafx/geom/transform/AffineBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2456" column="16" selection-start-line="2456" selection-start-column="16" selection-end-line="2456" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/javafx/geom/transform/Affine2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/Asteroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Rotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/renderers/PolygonRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controls/KeyboardControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
