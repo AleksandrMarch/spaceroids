@@ -6,8 +6,8 @@ import spaceroids.client.engine.transform.Transform;
 
 
 public class Player extends GameObject {
-  private float speed = 10f;
-  private float rotationSpeed = 10f;
+  private float speed = 5f;
+  private float rotationSpeed = 5f;
   private Renderer renderer;
   private KeyboardControls controls;
 
@@ -34,10 +34,8 @@ public class Player extends GameObject {
     float currentAngle = (float) getTransform().getRotation().getRotate().getAngle();
     float newAngle = currentAngle + rotationSpeed * controls.getXAxis();
     float move = speed * controls.getYAxis();
-    float x = (float) Math.sin(newAngle) * move;
-    float y = (float) Math.cos(newAngle) * move;
-//    System.out.println(newAngle);
-    System.out.println(x);
+    float x = (float) -Math.sin(Math.toRadians(newAngle)) * move;
+    float y = (float) Math.cos(Math.toRadians(newAngle)) * move;
     getTransform().getPosition().addX(x);
     getTransform().getPosition().addY(y);
     getTransform().getRotation().setAngle(newAngle);

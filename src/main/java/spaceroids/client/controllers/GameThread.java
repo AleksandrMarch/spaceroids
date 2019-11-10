@@ -2,10 +2,10 @@ package spaceroids.client.controllers;
 
 import spaceroids.client.models.GameObject;
 
-public class GameState extends Thread{
+public class GameThread extends Thread{
   private GameScene gameScene;
 
-  public GameState(GameScene gameScene) {
+  public GameThread(GameScene gameScene) {
     this.gameScene = gameScene;
   }
 

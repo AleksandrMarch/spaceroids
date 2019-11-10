@@ -1,9 +1,9 @@
 package spaceroids.client.ui;
 
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
 import javafx.scene.canvas.*;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import spaceroids.client.controllers.*;
 import spaceroids.client.controls.KeyboardControls;
@@ -20,8 +20,16 @@ public class Launcher extends Application {
 
   @Override
   public void start(Stage primaryStage) throws Exception {
-    createGameScene(primaryStage);
-    initGame();
+    startMenu(primaryStage);
+//    createGameScene(primaryStage);
+//    initGame();
+  }
+
+  private void startMenu(Stage primaryStage) throws Exception {
+    Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("fxml/menu.fxml"));
+    Scene scene = new Scene(root);
+    primaryStage.setScene(scene);
+    primaryStage.show();
   }
 
   private void initGame() {
@@ -30,7 +38,7 @@ public class Launcher extends Application {
     GameScene gameScene = new GameScene(sceneRenderer);
     Player player = new Player();
     gameScene.addGameObject(player);
-    GameState gameState = new GameState(gameScene);
+    GameThread gameState = new GameThread(gameScene);
     gameState.start();
     group.requestFocus();
   }
@@ -38,7 +46,7 @@ public class Launcher extends Application {
   private void createGameScene(Stage primaryStage) {
     group = new Group();
     canvas = new Canvas(300, 300);
-    canvas.setScaleY(-1);
+//    canvas.setScaleY(-1);
     group.getChildren().add(canvas);
     Scene scene = new Scene(group);
     primaryStage.setScene(scene);
