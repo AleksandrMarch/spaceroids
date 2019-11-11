@@ -1,6 +1,7 @@
 package spaceroids.server;
 
-import spaceroids.server.packet.PacketProcessor;
+import spaceroids.server.logging.Logger;
+import spaceroids.server.packetProcessing.ProcessorFactory;
 
 import java.io.IOException;
 import java.net.*;
@@ -37,15 +38,14 @@ public class Server {
     @Override
     public void run() {
       System.out.println("Server started");
-      PacketProcessor processor = new PacketProcessor();
+      ProcessorFactory processor = new ProcessorFactory();
       while (running) {
         DatagramPacket packet = new DatagramPacket(new byte[1024], 1024);
         try {
           ds.receive(packet);
-          System.out.println(PacketWrapper.wrap(packet).getEventList().get(0).getEventId());
-//          processor.process(new PacketWrapper(packet));
+          ProcessorFactory.process(PacketWrapper.wrap(packet));
         } catch (IOException e) {
-          e.printStackTrace();
+          Logger.log(e);
         }
       }
     }
