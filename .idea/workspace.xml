@@ -2,50 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f768c48-96d8-434e-b3ed-ba936681994b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/ConnectEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/FxmlEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/ModalWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/error/ErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/ConnectToServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/CreateServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/MainMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/utils/Validators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/ConnectionsPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/PlayerConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/connectWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/createServerWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spaceroids.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spaceroids.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/network/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/protocol/EventFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toClient/PlayerConnectedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/PlayerInfoEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/PacketWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/game/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/game/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/game/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/packet/BaseEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/packet/PacketProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/controllers/GameScene.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/controllers/GameState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/controllers/SceneRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/controls/Controls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/controls/KeyboardControls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/engine/renderers/PolygonRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/engine/renderers/Renderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/engine/transform/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/engine/transform/Rotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/engine/transform/Transform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/models/Asteroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/models/GameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/models/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/client/ui/Launcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/production/spaceroids/spaceroids/server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/protocol/PacketToClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/protocol/PacketToServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/ConnectEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/ConnectRequestEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/CreateServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/CreateServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/server/ConnectionsPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/ConnectionsPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/server/PlayerConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/PlayerConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spaceroids/server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceroids/server/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/client/network/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spaceroids/client/network/ConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/client/protocol/PacketToClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/client/protocol/PacketToServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/client/protocol/packetData/events/ConnectEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/client/protocol/packetData/events/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/client/ui/controllers/menu/CreateServerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spaceroids/client/ui/controllers/menu/CreateServerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/server/ConnectionsPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spaceroids/server/ConnectionsPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/server/PlayerConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spaceroids/server/PlayerConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/server/Server$ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spaceroids/server/Server$ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spaceroids/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spaceroids/server/Server.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +47,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/PacketToServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -69,14 +56,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/ConnectEvent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/ConnectRequestEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/PlayerInfoEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/EventFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toClient/PlayerConnectedEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/ConnectionsPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -93,8 +103,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/PlayerConnection.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,12 +130,108 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="600">
+              <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/packet/PacketProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/PacketWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/packet/BaseEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/game/Scene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/game/GameManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/game/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +240,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/ConnectToServerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="300">
               <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,18 +252,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/CreateServerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/Event.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/network/ServerListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/Event.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -148,16 +294,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/PacketToClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,8 +308,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/MainMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="165">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
@@ -182,8 +324,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -228,7 +370,6 @@
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/ModalWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/MainMenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/utils/Validators.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/ServerThread.java" />
@@ -237,6 +378,22 @@
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/ConnectEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/CreateServerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/PlayerConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/packetProcessors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/game/Scene.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/game/GameManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/ConnectionsPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/packetProcessors/PacketProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toClient/PlayerConnected.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/ConnectRequestEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toClient/PlayerConnectedEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/packet/BaseEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/PlayerInfoEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/protocol/EventFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/BaseEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/packet/PacketProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/PacketWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/spaceroids/server/Server.java" />
       </list>
     </option>
@@ -260,6 +417,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,7 +455,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -348,6 +505,15 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="protocol" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -357,8 +523,8 @@
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="protocol" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="packetData" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -367,9 +533,9 @@
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="protocol" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="packetData" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="events" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -378,10 +544,22 @@
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="menu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="protocol" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="packetData" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="events" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="toClient" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="protocol" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="packetData" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="events" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="toServer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -391,6 +569,23 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spaceroids" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="packet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spaceroids" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spaceroids" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -438,11 +633,11 @@
       </method>
     </configuration>
     <configuration name="PacketToClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spaceroids.client.protocol.PacketToClient" />
+      <option name="MAIN_CLASS_NAME" value="spaceroids.protocol.PacketToClient" />
       <module name="spaceroids" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spaceroids.client.protocol.*" />
+          <option name="PATTERN" value="spaceroids.protocol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,12 +674,15 @@
       <workItem from="1572934116680" duration="219000" />
       <workItem from="1572955371638" duration="17000" />
       <workItem from="1573304127142" duration="3589000" />
-      <workItem from="1573366450514" duration="18331000" />
+      <workItem from="1573366450514" duration="20045000" />
+      <workItem from="1573404716558" duration="6266000" />
+      <workItem from="1573452270365" duration="106000" />
+      <workItem from="1573495238764" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64066000" />
+    <option name="totallyTimeSpent" value="73268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1547" height="875" extended-state="6" />
@@ -495,7 +693,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29513657" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30712858" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -503,8 +701,8 @@
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.19140083" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32871014" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.19140083" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.24549237" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32732317" />
@@ -529,429 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="247" column="11" selection-start-line="247" selection-start-column="11" selection-end-line="247" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/shape/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3210">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/awt/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controls/Controls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/collections/ObservableList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/Transform.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Renderer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Transform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="5214" column="24" selection-start-line="5214" selection-start-column="24" selection-end-line="5214" selection-end-column="24" />
-          <folding>
-            <element signature="e#45769#45770#0" expanded="true" />
-            <element signature="e#45811#45812#0" expanded="true" />
-            <element signature="e#231136#231137#0" expanded="true" />
-            <element signature="e#231179#231180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/transform/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/transform/Affine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="826" column="16" selection-start-line="826" selection-start-column="16" selection-end-line="826" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/engine/renderers/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/canvas/GraphicsContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="970" column="31" selection-start-line="970" selection-start-column="31" selection-end-line="970" selection-end-column="31" />
-          <folding>
-            <element signature="docComment;class#GraphicsContext#0" />
-            <element signature="e#23647#23924#0" />
-            <element signature="e#24499#24912#0" />
-            <element signature="e#24922#25371#0" />
-            <element signature="e#25381#26619#0" />
-            <element signature="e#26699#27868#0" />
-            <element signature="e#27460#27612#1" />
-            <element signature="e#28322#28981#0" />
-            <element signature="e#28457#28945#1" />
-            <element signature="e#28595#28861#1" />
-            <element signature="e#28756#28820#1" />
-            <element signature="e#28987#29188#0" />
-            <element signature="e#29194#29598#0" />
-            <element signature="e#29283#29547#0" />
-            <element signature="e#29604#29950#0" />
-            <element signature="e#29956#30125#0" />
-            <element signature="e#30131#30569#0" />
-            <element signature="e#30621#31019#0" />
-            <element signature="e#30851#31013#1" />
-            <element signature="e#31024#32179#0" />
-            <element signature="e#31404#31694#1" />
-            <element signature="e#31445#31586#1" />
-            <element signature="e#31764#31820#1" />
-            <element signature="e#31868#31937#0" />
-            <element signature="e#32185#32638#0" />
-            <element signature="e#32644#33308#0" />
-            <element signature="e#33314#33809#0" />
-            <element signature="e#33815#33971#0" />
-            <element signature="e#33977#34130#0" />
-            <element signature="e#34165#34696#0" />
-            <element signature="e#34219#34690#1" />
-            <element signature="e#34702#34924#0" />
-            <element signature="e#34930#36127#0" />
-            <element signature="e#35007#35069#0" />
-            <element signature="e#35532#36121#1" />
-            <element signature="e#35878#36027#1" />
-            <element signature="e#36133#36929#0" />
-            <element signature="e#36298#36550#1" />
-            <element signature="e#36501#36540#1" />
-            <element signature="e#36556#36626#1" />
-            <element signature="e#36650#36804#1" />
-            <element signature="e#36935#37225#0" />
-            <element signature="e#37295#37965#0" />
-            <element signature="e#38044#38806#0" />
-            <element signature="e#38044#39002#0" />
-            <element signature="e#38870#38996#1" />
-            <element signature="e#39008#39174#0" />
-            <element signature="e#39008#39296#0" />
-            <element signature="e#39302#39450#0" />
-            <element signature="e#39302#39564#0" />
-            <element signature="e#39839#40351#0" />
-            <element signature="e#39839#40646#0" />
-            <element signature="e#40652#41006#0" />
-            <element signature="e#40652#41286#0" />
-            <element signature="e#41292#41774#0" />
-            <element signature="e#41292#42120#0" />
-            <element signature="e#42126#42405#0" />
-            <element signature="e#42126#42695#0" />
-            <element signature="e#42701#43270#0" />
-            <element signature="e#42701#43873#0" />
-            <element signature="e#43345#43390#1" />
-            <element signature="e#43879#44006#0" />
-            <element signature="e#44088#44681#0" />
-            <element signature="e#44088#44956#0" />
-            <element signature="e#44772#44950#1" />
-            <element signature="e#44962#45301#0" />
-            <element signature="e#45387#45858#0" />
-            <element signature="e#45387#46165#0" />
-            <element signature="e#45960#46159#1" />
-            <element signature="e#46171#46554#0" />
-            <element signature="e#46643#47123#0" />
-            <element signature="e#46643#47300#0" />
-            <element signature="e#47204#47294#1" />
-            <element signature="e#47306#47690#0" />
-            <element signature="e#47761#48235#0" />
-            <element signature="e#47761#48420#0" />
-            <element signature="e#48320#48414#1" />
-            <element signature="e#48426#48802#0" />
-            <element signature="e#48877#49450#0" />
-            <element signature="e#48877#49849#0" />
-            <element signature="e#49501#49563#0" />
-            <element signature="e#49680#49843#1" />
-            <element signature="e#49724#49833#1" />
-            <element signature="e#49855#50191#0" />
-            <element signature="e#50273#50768#0" />
-            <element signature="e#50273#51239#0" />
-            <element signature="e#50869#51233#1" />
-            <element signature="e#50916#51141#0" />
-            <element signature="e#51245#51640#0" />
-            <element signature="e#51725#52217#0" />
-            <element signature="e#51725#52701#0" />
-            <element signature="e#52324#52695#1" />
-            <element signature="e#52372#52600#0" />
-            <element signature="e#52707#53098#0" />
-            <element signature="e#53186#53770#0" />
-            <element signature="e#53186#54175#0" />
-            <element signature="e#53822#53884#0" />
-            <element signature="e#54003#54169#1" />
-            <element signature="e#54048#54159#1" />
-            <element signature="e#54181#54555#0" />
-            <element signature="e#54639#55617#0" />
-            <element signature="e#54639#57065#0" />
-            <element signature="e#55718#55846#1" />
-            <element signature="e#55761#55800#1" />
-            <element signature="e#55852#56931#1" />
-            <element signature="e#55943#56367#1" />
-            <element signature="e#56045#56300#1" />
-            <element signature="e#56067#56099#0" />
-            <element signature="e#56217#56282#1" />
-            <element signature="e#56306#56353#1" />
-            <element signature="e#56394#56542#1" />
-            <element signature="e#56441#56488#1" />
-            <element signature="e#56548#56921#1" />
-            <element signature="e#56635#56724#1" />
-            <element signature="e#56730#56907#1" />
-            <element signature="e#57071#57578#0" />
-            <element signature="e#57071#57767#0" />
-            <element signature="e#57654#57690#1" />
-            <element signature="e#57773#58316#0" />
-            <element signature="e#57773#58703#0" />
-            <element signature="e#58380#58426#0" />
-            <element signature="e#58582#58697#1" />
-            <element signature="e#58709#59108#0" />
-            <element signature="e#59196#59621#0" />
-            <element signature="e#59196#59890#0" />
-            <element signature="e#59701#59884#1" />
-            <element signature="e#59896#60222#0" />
-            <element signature="e#60292#61309#0" />
-            <element signature="e#60292#61607#0" />
-            <element signature="e#61460#61601#1" />
-            <element signature="e#61613#62013#0" />
-            <element signature="e#62118#63327#0" />
-            <element signature="e#62118#63887#0" />
-            <element signature="e#63438#63881#1" />
-            <element signature="e#63487#63783#0" />
-            <element signature="e#63893#64307#0" />
-            <element signature="e#64396#64890#0" />
-            <element signature="e#64396#65468#0" />
-            <element signature="e#65007#65462#1" />
-            <element signature="e#65059#65355#0" />
-            <element signature="e#65474#65862#0" />
-            <element signature="e#65948#66545#0" />
-            <element signature="e#66671#67272#0" />
-            <element signature="e#67402#68117#0" />
-            <element signature="e#67402#68296#0" />
-            <element signature="e#68302#69037#0" />
-            <element signature="e#68302#69220#0" />
-            <element signature="e#69227#69791#0" />
-            <element signature="e#69227#70215#0" />
-            <element signature="e#69906#70208#1" />
-            <element signature="e#69975#70039#1" />
-            <element signature="e#70045#70109#1" />
-            <element signature="e#70221#70644#0" />
-            <element signature="e#70729#71107#0" />
-            <element signature="e#70729#71190#0" />
-            <element signature="e#71196#71855#0" />
-            <element signature="e#71196#72103#0" />
-            <element signature="e#72109#72801#0" />
-            <element signature="e#72109#73148#0" />
-            <element signature="e#73016#73074#1" />
-            <element signature="e#73154#73907#0" />
-            <element signature="e#73154#74372#0" />
-            <element signature="e#74218#74276#1" />
-            <element signature="e#74378#75299#0" />
-            <element signature="e#74378#75878#0" />
-            <element signature="e#75701#75759#1" />
-            <element signature="e#75884#78653#0" />
-            <element signature="e#75884#79011#0" />
-            <element signature="e#78777#78844#1" />
-            <element signature="e#78966#79005#1" />
-            <element signature="e#79017#79166#0" />
-            <element signature="e#79172#85481#0" />
-            <element signature="e#79331#79496#1" />
-            <element signature="e#79502#79855#1" />
-            <element signature="e#79608#79701#0" />
-            <element signature="e#79744#79789#0" />
-            <element signature="e#79864#79894#0" />
-            <element signature="e#81062#81099#1" />
-            <element signature="e#81222#81259#1" />
-            <element signature="e#81718#81752#0" />
-            <element signature="e#82098#82135#1" />
-            <element signature="e#82332#82369#1" />
-            <element signature="e#82378#82440#0" />
-            <element signature="e#82531#82572#1" />
-            <element signature="e#82581#82614#0" />
-            <element signature="e#83431#83491#0" />
-            <element signature="e#83771#84238#1" />
-            <element signature="e#84244#85454#1" />
-            <element signature="e#84258#84276#0" />
-            <element signature="e#85487#86504#0" />
-            <element signature="e#85487#87154#0" />
-            <element signature="e#87160#87914#0" />
-            <element signature="e#87160#88773#0" />
-            <element signature="e#88779#89506#0" />
-            <element signature="e#88779#91934#0" />
-            <element signature="e#89716#90627#1" />
-            <element signature="e#89757#90598#0" />
-            <element signature="e#90083#90224#1" />
-            <element signature="e#90245#90296#0" />
-            <element signature="e#90719#91391#1" />
-            <element signature="e#90807#90984#1" />
-            <element signature="e#90990#91349#1" />
-            <element signature="e#91108#91209#0" />
-            <element signature="e#91397#91440#1" />
-            <element signature="e#91453#91816#0" />
-            <element signature="e#91594#91770#1" />
-            <element signature="e#91612#91668#0" />
-            <element signature="e#91940#92267#0" />
-            <element signature="e#91940#92413#0" />
-            <element signature="e#92337#92407#1" />
-            <element signature="e#92419#93063#0" />
-            <element signature="e#93139#93791#0" />
-            <element signature="e#93871#94725#0" />
-            <element signature="e#93871#94978#0" />
-            <element signature="e#94984#95262#0" />
-            <element signature="e#94984#95498#0" />
-            <element signature="e#95326#95390#0" />
-            <element signature="e#95504#95928#0" />
-            <element signature="e#95504#96144#0" />
-            <element signature="e#96027#96138#1" />
-            <element signature="e#96150#96722#0" />
-            <element signature="e#96150#96950#0" />
-            <element signature="e#96820#96944#1" />
-            <element signature="e#96956#97534#0" />
-            <element signature="e#96956#97707#0" />
-            <element signature="e#97634#97701#1" />
-            <element signature="e#97713#98291#0" />
-            <element signature="e#97713#98460#0" />
-            <element signature="e#98389#98454#1" />
-            <element signature="e#98466#99050#0" />
-            <element signature="e#98466#99223#0" />
-            <element signature="e#99150#99217#1" />
-            <element signature="e#99229#100031#0" />
-            <element signature="e#99229#100357#0" />
-            <element signature="e#100229#100351#1" />
-            <element signature="e#100363#101180#0" />
-            <element signature="e#100363#101510#0" />
-            <element signature="e#101380#101504#1" />
-            <element signature="e#101516#102234#0" />
-            <element signature="e#101516#102504#0" />
-            <element signature="e#102406#102498#1" />
-            <element signature="e#102510#103234#0" />
-            <element signature="e#102510#103508#0" />
-            <element signature="e#103408#103502#1" />
-            <element signature="e#103514#104122#0" />
-            <element signature="e#103514#104257#0" />
-            <element signature="e#104263#105007#0" />
-            <element signature="e#104263#105206#0" />
-            <element signature="e#105113#105200#1" />
-            <element signature="e#105212#105918#0" />
-            <element signature="e#105212#106121#0" />
-            <element signature="e#106026#106115#1" />
-            <element signature="e#106127#106854#0" />
-            <element signature="e#106127#107059#0" />
-            <element signature="e#106963#107053#1" />
-            <element signature="e#107065#107708#0" />
-            <element signature="e#107065#107918#0" />
-            <element signature="e#107924#108717#0" />
-            <element signature="e#108845#109797#0" />
-            <element signature="e#108845#110043#0" />
-            <element signature="e#110081#110618#0" />
-            <element signature="e#110081#120349#0" />
-            <element signature="e#110689#120320#1" />
-            <element signature="class#110716:120309" />
-            <element signature="method#setArgb#0;class#110716:120309" />
-            <element signature="method#setColor#0;class#110716:120309" />
-            <element signature="method#writePixelBuffer#0;class#110716:120309" />
-            <element signature="method#checkBounds#0;class#110716:120309" />
-            <element signature="e#112857#112917#1" />
-            <element signature="e#112985#113975#1" />
-            <element signature="e#113107#113922#1" />
-            <element signature="e#113159#113896#0" />
-            <element signature="e#114007#114185#1" />
-            <element signature="e#114222#114329#1" />
-            <element signature="e#114366#114473#1" />
-            <element signature="method#setPixels#0;class#110716:120309" />
-            <element signature="e#115342#115591#1" />
-            <element signature="method#setPixels#1;class#110716:120309" />
-            <element signature="e#116874#117123#1" />
-            <element signature="method#setPixels#2;class#110716:120309" />
-            <element signature="e#118358#118607#1" />
-            <element signature="method#setPixels#3;class#110716:120309" />
-            <element signature="e#119592#119969#1" />
-            <element signature="e#120355#120739#0" />
-            <element signature="e#120355#121133#0" />
-            <element signature="e#120885#120965#1" />
-            <element signature="e#120971#121127#1" />
-            <element signature="e#121139#121801#0" />
-            <element signature="e#121930#122707#0" />
-            <element signature="e#121930#122990#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/javafx/geom/transform/AffineBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="2456" column="16" selection-start-line="2456" selection-start-column="16" selection-end-line="2456" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/javafx/geom/transform/Affine2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -971,13 +746,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/Menu.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/controllers/GameScene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1001,28 +770,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/menu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="263" selection-start-line="6" selection-start-column="263" selection-end-line="6" selection-end-column="263" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/connectWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/createServerWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="271" selection-start-line="7" selection-start-column="271" selection-end-line="7" selection-end-column="271" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1031,35 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/ServerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,10 +916,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/packetProcessors.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/packetProcessors/EventProccessor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/packetProcessors/PlayerProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/ServerThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/ConnectionsPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/PlayerConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/game/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/game/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/models/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/ConnectToServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/CreateServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/network/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/network/ServerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/MainMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="165">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
@@ -1184,88 +1035,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/ConnectToServerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/BaseEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/packet/BaseEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/PacketToServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/ConnectEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/ConnectionsPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toClient/PlayerConnectedEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/PlayerConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/ConnectRequestEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/PacketToClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/toServer/PlayerInfoEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/protocol/packetData/events/Event.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/packetData/events/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/client/ui/controllers/menu/CreateServerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/EventFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/protocol/PacketToClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/PacketWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/packet/PacketProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/game/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spaceroids/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="600">
+          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
           </folding>
         </state>
       </provider>

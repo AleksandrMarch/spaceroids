@@ -1,8 +1,8 @@
-package spaceroids.client.protocol;
+package spaceroids.protocol;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
-import spaceroids.client.protocol.packetData.events.*;
+import spaceroids.protocol.packetData.events.*;
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public class PacketToClient {
 
 //  public static void main(String[] args) {
 //    PacketToClient packetToClient = new PacketToClient();
-//    Event event = new ConnectEvent();
+//    Event event = new ConnectRequestEvent();
 //    packetToClient.getEventList().add(event);
 //    System.out.println(packetToClient.toJson());
 //  }

@@ -2,6 +2,7 @@ package spaceroids.client.ui.controllers.menu;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import spaceroids.client.network.ConnectionManager;
 import spaceroids.client.utils.Validators;
 import spaceroids.server.Server;
 
@@ -19,8 +20,9 @@ public class CreateServerController {
     if (!Validators.validatePort(portString)) {
       return;
     }
-    Server.startServer(Integer.parseInt(portString));
-
+    int port = Integer.parseInt(portString);
+    Server.startServer(port);
+    ConnectionManager.connectToServer("127.0.0.1", port);
   }
 
   @FXML
