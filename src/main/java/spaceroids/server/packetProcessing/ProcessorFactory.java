@@ -3,23 +3,25 @@ package spaceroids.server.packetProcessing;
 import spaceroids.protocol.EventFactory;
 import spaceroids.protocol.exceptions.UnknownEventIdException;
 import spaceroids.protocol.packetData.eventsData.EventData;
-import spaceroids.server.PacketWrapper;
+import spaceroids.protocol.PacketWrapper;
+import spaceroids.server.PlayerConnection;
 import spaceroids.server.logging.Logger;
-import spaceroids.server.packet.BaseEvent;
+import spaceroids.protocol.BaseEvent;
 import spaceroids.server.packetProcessing.processors.*;
 
 public class ProcessorFactory {
   public static void process(PacketWrapper packet) {
     for (BaseEvent baseEvent : packet.getEventList()) {
       try {
-        processEvent(baseEvent);
+        processEvent(baseEvent, packet.getConnection());
       } catch (UnknownEventIdException e) {
         Logger.log(e);
       }
     }
   }
 
-  private static void processEvent(BaseEvent baseEvent) throws UnknownEventIdException {
+  private static void processEvent(BaseEvent baseEvent, PlayerConnection connection)
+      throws UnknownEventIdException {
     int eventId = baseEvent.getEventId();
     EventData eventData;
 
@@ -32,7 +34,7 @@ public class ProcessorFactory {
 
     switch (eventId) {
       case EventFactory.EVENT_CONNECT_TO_SERVER:
-        PlayerConnectedProcessor.process(eventData);
+        PlayerConnectedProcessor.process(eventData, connection);
       case EventFactory.EVENT_PLAYER_DISCONNECTED:
         PlayerDisconnectedProcessor.process(eventData);
       case EventFactory.EVENT_PLAYER_INFO:

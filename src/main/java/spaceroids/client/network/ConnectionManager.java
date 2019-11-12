@@ -1,6 +1,6 @@
 package spaceroids.client.network;
 
-import spaceroids.protocol.PacketToClient;
+import spaceroids.protocol.PacketToSend;
 import spaceroids.protocol.packetData.events.*;
 import spaceroids.protocol.packetData.events.toServer.ConnectRequestEvent;
 
@@ -16,13 +16,13 @@ public class ConnectionManager {
   private ConnectionManager() {}
 
   public static void connectToServer(String ip, int port) {
-    PacketToClient packetToClient = new PacketToClient();
+    PacketToSend packet = new PacketToSend();
     Event event = new ConnectRequestEvent();
-    packetToClient.getEventList().add(event);
+    packet.getEventList().add(event);
 
     INSTANCE.setIp(ip);
     INSTANCE.setPort(port);
-    INSTANCE.sendToServer(packetToClient.toJson());
+    INSTANCE.sendToServer(packet.toJson());
   }
 
   private void sendToServer(String dataStr) {
@@ -35,7 +35,6 @@ public class ConnectionManager {
       ds.close();
     }catch(IOException e){
       System.err.println(e);
-
     }
   }
 

@@ -1,5 +1,6 @@
 package spaceroids.server;
 
+import spaceroids.protocol.PacketWrapper;
 import spaceroids.server.logging.Logger;
 import spaceroids.server.packetProcessing.ProcessorFactory;
 
@@ -38,7 +39,6 @@ public class Server {
     @Override
     public void run() {
       System.out.println("Server started");
-      ProcessorFactory processor = new ProcessorFactory();
       while (running) {
         DatagramPacket packet = new DatagramPacket(new byte[1024], 1024);
         try {

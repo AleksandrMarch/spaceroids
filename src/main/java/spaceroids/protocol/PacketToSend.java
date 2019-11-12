@@ -6,7 +6,7 @@ import spaceroids.protocol.packetData.events.*;
 
 import java.util.*;
 
-public class PacketToClient {
+public class PacketToSend {
   @SerializedName("events")
   private List<Event> eventList = new ArrayList<>();
 
@@ -24,7 +24,7 @@ public class PacketToClient {
   }
 
 //  public static void main(String[] args) {
-//    PacketToClient packetToClient = new PacketToClient();
+//    PacketToSend packetToClient = new PacketToSend();
 //    Event event = new ConnectRequestEvent();
 //    packetToClient.getEventList().add(event);
 //    System.out.println(packetToClient.toJson());

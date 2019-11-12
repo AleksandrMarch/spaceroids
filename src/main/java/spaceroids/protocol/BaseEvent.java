@@ -1,4 +1,4 @@
-package spaceroids.server.packet;
+package spaceroids.protocol;
 
 public class BaseEvent {
   private int eventId;
