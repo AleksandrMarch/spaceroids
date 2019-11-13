@@ -1,5 +1,7 @@
 package spaceroids.client.network;
 
+import spaceroids.client.network.packetProcessing.ProcessorFactory;
+import spaceroids.protocol.PacketWrapper;
 import spaceroids.server.logging.Logger;
 
 import java.io.IOException;
@@ -27,7 +29,7 @@ public class ServerListener {
 
     public Server() {
       try {
-        ds = new DatagramSocket(33321);
+        ds = new DatagramSocket(44321);
       } catch (SocketException e) {
         Logger.log(e);
       }
@@ -35,11 +37,12 @@ public class ServerListener {
 
     @Override
     public void run() {
-      System.out.println("started server listener");
+      System.out.println("started server listener on port 44321");
       while (true) {
         DatagramPacket packet = new DatagramPacket(new byte[1024], 1024);
         try {
           ds.receive(packet);
+          ProcessorFactory.process(PacketWrapper.wrap(packet));
         } catch (IOException e) {
           e.printStackTrace();
         }

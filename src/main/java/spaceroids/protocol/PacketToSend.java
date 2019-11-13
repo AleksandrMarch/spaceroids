@@ -10,6 +10,10 @@ public class PacketToSend {
   @SerializedName("events")
   private List<Event> eventList = new ArrayList<>();
 
+  public void prepare() {
+    eventList.forEach(Event::serialize);
+  }
+
   public String toJson() {
     Gson gson = new Gson();
     return gson.toJson(this);
@@ -25,7 +29,7 @@ public class PacketToSend {
 
 //  public static void main(String[] args) {
 //    PacketToSend packetToClient = new PacketToSend();
-//    Event event = new ConnectRequestEvent();
+//    Event event = new PlayerConnectRequestEvent();
 //    packetToClient.getEventList().add(event);
 //    System.out.println(packetToClient.toJson());
 //  }

@@ -29,7 +29,7 @@ public class ProcessorFactory {
     }
 
     switch (eventId) {
-      case EventFactory.EVENT_PLAYER_CONNECTED:
+      case EventFactory.EVENT_CONNECT_TO_SERVER_RESPONSE:
         PlayerConnectedProcessor.process(eventData);
       default: throw new UnknownEventIdException("Event id is not supported by client");
     }

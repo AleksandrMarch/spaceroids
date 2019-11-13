@@ -1,8 +1,8 @@
 package spaceroids.client.network;
 
-import spaceroids.protocol.PacketToSend;
+import spaceroids.protocol.*;
 import spaceroids.protocol.packetData.events.*;
-import spaceroids.protocol.packetData.events.toServer.ConnectRequestEvent;
+import spaceroids.protocol.packetData.events.toServer.PlayerConnectRequestEvent;
 
 import java.io.IOException;
 import java.net.*;
@@ -17,8 +17,9 @@ public class ConnectionManager {
 
   public static void connectToServer(String ip, int port) {
     PacketToSend packet = new PacketToSend();
-    Event event = new ConnectRequestEvent();
+    Event event = new BaseEvent(new PlayerConnectRequestEvent(), 0);
     packet.getEventList().add(event);
+    packet.prepare();
 
     INSTANCE.setIp(ip);
     INSTANCE.setPort(port);

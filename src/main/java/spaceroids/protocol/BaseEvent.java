@@ -1,8 +1,41 @@
 package spaceroids.protocol;
 
-public class BaseEvent {
+import com.google.gson.Gson;
+import com.google.gson.annotations.SerializedName;
+import spaceroids.protocol.exceptions.UnknownEventIdException;
+import spaceroids.protocol.packetData.events.Event;
+import spaceroids.protocol.packetData.eventsData.EventData;
+
+public class BaseEvent implements Event {
   private int eventId;
-  private String data;
+  @SerializedName("data")
+  private String jsonData;
+  private transient EventData dataObject;
+
+  public BaseEvent(EventData eventData, int eventId) {
+    this.dataObject = eventData;
+    this.eventId = eventId;
+  }
+
+  public BaseEvent() {}
+
+  @Override
+  public void deserialize() {
+    if (jsonData != null) {
+      Gson gson = new Gson();
+      try {
+        dataObject = gson.fromJson(jsonData, EventFactory.getEventData(eventId).getClass());
+      } catch (UnknownEventIdException e) { //todo handle exception
+        e.printStackTrace();
+      }
+    }
+  }
+
+  @Override
+  public void serialize() {
+    Gson gson = new Gson();
+    jsonData = gson.toJson(dataObject);
+  }
 
   public int getEventId() {
     return eventId;
@@ -12,11 +45,19 @@ public class BaseEvent {
     this.eventId = eventId;
   }
 
-  public String getData() {
-    return data;
+  public String getDataString() {
+    return jsonData;
   }
 
-  public void setData(String data) {
-    this.data = data;
+  public void setDataString(String dataString) {
+    this.jsonData = dataString;
+  }
+
+  public EventData getDataObject() {
+    return dataObject;
+  }
+
+  public void setDataObject(EventData dataObject) {
+    this.dataObject = dataObject;
   }
 }

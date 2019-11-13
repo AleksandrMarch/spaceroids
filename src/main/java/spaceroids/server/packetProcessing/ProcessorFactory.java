@@ -33,7 +33,7 @@ public class ProcessorFactory {
     }
 
     switch (eventId) {
-      case EventFactory.EVENT_CONNECT_TO_SERVER:
+      case EventFactory.EVENT_CONNECT_TO_SERVER_REQUEST:
         PlayerConnectedProcessor.process(eventData, connection);
       case EventFactory.EVENT_PLAYER_DISCONNECTED:
         PlayerDisconnectedProcessor.process(eventData);
