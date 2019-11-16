@@ -1,9 +1,15 @@
-package spaceroids.server;
+package spaceroids.server.networking;
 
 public class PlayerConnection {
   private int id;
   private int port;
   private String ip;
+
+  public PlayerConnection(int id, int port, String ip) {
+    this.id = id;
+    this.port = port;
+    this.ip = ip;
+  }
 
   public int getId() {
     return id;

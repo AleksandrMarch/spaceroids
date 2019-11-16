@@ -2,7 +2,7 @@ package spaceroids.server;
 
 import spaceroids.protocol.PacketWrapper;
 import spaceroids.server.logging.Logger;
-import spaceroids.server.packetProcessing.ProcessorFactory;
+import spaceroids.server.networking.packetProcessing.ProcessorFactory;
 
 import java.io.IOException;
 import java.net.*;
@@ -22,12 +22,18 @@ public class Server {
 
   public static void startServer(int port) {
     server = new Server(port);
+    initializeServer();
   }
 
   public static void stopServer() {
     serverThread.stopThread();
   }
 
+  private static void initializeServer() {
+
+  }
+
+  //todo inner class?
   private class ServerThread extends Thread {
     private boolean running = true;
     private DatagramSocket ds;

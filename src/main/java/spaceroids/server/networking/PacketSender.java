@@ -1,4 +1,4 @@
-package spaceroids.server;
+package spaceroids.server.networking;
 
 import spaceroids.protocol.PacketToSend;
 

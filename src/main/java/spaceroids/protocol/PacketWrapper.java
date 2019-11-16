@@ -2,7 +2,7 @@ package spaceroids.protocol;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
-import spaceroids.server.PlayerConnection;
+import spaceroids.server.networking.PlayerConnection;
 
 import java.net.DatagramPacket;
 import java.util.List;
@@ -11,7 +11,6 @@ public class PacketWrapper {
   private DatagramPacket packet;
   @SerializedName("events")
   private List<BaseEvent> eventList;
-  private PlayerConnection connection;
 
   public static PacketWrapper wrap(DatagramPacket packet) {
     System.out.println(new String(packet.getData(), packet.getOffset(), packet.getLength()));
@@ -20,10 +19,7 @@ public class PacketWrapper {
         new String(packet.getData(), packet.getOffset(), packet.getLength()),
         PacketWrapper.class
     );
-    PlayerConnection connection = new PlayerConnection();
-    connection.setIp(packet.getAddress().getHostAddress());
-    connection.setPort(packet.getPort());
-    wrapper.setConnection(connection);
+    wrapper.setPacket(packet);
     return wrapper;
   }
 
@@ -41,13 +37,5 @@ public class PacketWrapper {
 
   public void setPacket(DatagramPacket packet) {
     this.packet = packet;
-  }
-
-  public PlayerConnection getConnection() {
-    return connection;
-  }
-
-  public void setConnection(PlayerConnection connection) {
-    this.connection = connection;
   }
 }
