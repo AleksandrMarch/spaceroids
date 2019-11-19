@@ -10,8 +10,7 @@ import java.net.*;
 public class ConnectionManager {
   private static ConnectionManager INSTANCE = new ConnectionManager();
 
-  private String ip;
-  private int port;
+  private Connection connection;
 
   private ConnectionManager() {}
 
@@ -19,31 +18,16 @@ public class ConnectionManager {
     PacketToSend packet = new PacketToSend();
     Event event = new BaseEvent(new PlayerConnectRequestEvent(), 0);
     packet.getEventList().add(event);
-    packet.prepare();
 
-    INSTANCE.setIp(ip);
-    INSTANCE.setPort(port);
-    INSTANCE.sendToServer(packet.toJson());
+    INSTANCE.setConnection(new Connection(ip, port));
+    UDPSender.sendPacket(packet, INSTANCE.getConnection());
   }
 
-  private void sendToServer(String dataStr) {
-    try{
-      byte[] data = dataStr.getBytes();
-      InetAddress addr = InetAddress.getByName(ip);
-      DatagramPacket pack = new DatagramPacket(data, data.length, addr, port);
-      DatagramSocket ds = new DatagramSocket();
-      ds.send(pack);
-      ds.close();
-    }catch(IOException e){
-      System.err.println(e);
-    }
+  public Connection getConnection() {
+    return connection;
   }
 
-  public void setIp(String ip) {
-    this.ip = ip;
-  }
-
-  public void setPort(int port) {
-    this.port = port;
+  public void setConnection(Connection connection) {
+    this.connection = connection;
   }
 }

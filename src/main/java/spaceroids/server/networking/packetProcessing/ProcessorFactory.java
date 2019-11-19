@@ -4,7 +4,6 @@ import spaceroids.protocol.EventFactory;
 import spaceroids.protocol.exceptions.UnknownEventIdException;
 import spaceroids.protocol.packetData.eventsData.EventData;
 import spaceroids.protocol.PacketWrapper;
-import spaceroids.server.networking.PlayerConnection;
 import spaceroids.server.logging.Logger;
 import spaceroids.protocol.BaseEvent;
 import spaceroids.server.networking.packetProcessing.processors.*;

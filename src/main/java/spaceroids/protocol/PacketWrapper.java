@@ -2,7 +2,6 @@ package spaceroids.protocol;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
-import spaceroids.server.networking.PlayerConnection;
 
 import java.net.DatagramPacket;
 import java.util.List;

@@ -10,8 +10,8 @@ import spaceroids.server.networking.*;
 public class PlayerConnectedProcessor {
   public static void process (EventData eventData, PacketWrapper packet) {
     PlayerConnectRequestEvent event = (PlayerConnectRequestEvent) eventData;
-    PacketToSend response = new PacketToSend();
-    PlayerConnection connection = null;
+    PacketToSend packetToSend = new PacketToSend();
+    Connection connection = null;
     try {
       connection = ConnectionPool.instance.createNewConnection(
           packet.getPacket().getAddress().getHostAddress(),
@@ -20,8 +20,10 @@ public class PlayerConnectedProcessor {
       e.printStackTrace(); // todo handle
     }
     ConnectionPool.instance.addConnection(connection);
-    response.getEventList().add(new BaseEvent(new PlayerConnectResponseEvent(), 1));
-    PacketSender.send(response, connection);
+    PlayerConnectResponseEvent responseEvent = new PlayerConnectResponseEvent();
+    responseEvent.setServerId(connection.getConnectionId());
+    packetToSend.getEventList().add(new BaseEvent(responseEvent, 1));;
+    UDPSender.sendPacket(packetToSend, connection);
   }
 
   private static void processConnection() {

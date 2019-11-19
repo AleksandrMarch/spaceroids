@@ -1,5 +1,6 @@
 package spaceroids.server.networking;
 
+import spaceroids.protocol.Connection;
 import spaceroids.server.exceptions.ServerIsFullException;
 
 import java.util.*;
@@ -8,20 +9,20 @@ public class ConnectionPool {
   public static ConnectionPool instance = new ConnectionPool();
 
   private static final int MAX_PLAYERS = 100;
-  private Map<Integer, PlayerConnection> connectionMap = new HashMap<>();
+  private Map<Integer, Connection> connectionMap = new HashMap<>();
 
   private ConnectionPool() {}
 
-  public void addConnection(PlayerConnection connection) {
-    connectionMap.put(connection.getId(), connection);
+  public void addConnection(Connection connection) {
+    connectionMap.put(connection.getConnectionId(), connection);
   }
 
   public void removeConnection(int id) {
     connectionMap.remove(id);
   }
 
-  public PlayerConnection createNewConnection(String ip, int port) throws ServerIsFullException {
-    return new PlayerConnection(getFreeId(), port, ip);
+  public Connection createNewConnection(String ip, int port) throws ServerIsFullException {
+    return new Connection(ip, port, getFreeId());
   }
 
   private int getFreeId() throws ServerIsFullException {
