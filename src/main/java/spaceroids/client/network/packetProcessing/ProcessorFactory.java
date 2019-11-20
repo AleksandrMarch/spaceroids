@@ -1,6 +1,6 @@
 package spaceroids.client.network.packetProcessing;
 
-import spaceroids.client.network.packetProcessing.processors.PlayerConnectedProcessor;
+import spaceroids.client.network.packetProcessing.processors.*;
 import spaceroids.protocol.*;
 import spaceroids.protocol.exceptions.UnknownEventIdException;
 import spaceroids.protocol.packetData.eventsData.EventData;
@@ -30,6 +30,8 @@ public class ProcessorFactory {
 
     switch (eventId) {
       case EventFactory.EVENT_CONNECT_TO_SERVER_RESPONSE:
+        ConnectionResponseProcessor.process(eventData);
+      case EventFactory.EVENT_PLAYER_CONNECTED:
         PlayerConnectedProcessor.process(eventData);
       default: throw new UnknownEventIdException("Event id is not supported by client");
     }

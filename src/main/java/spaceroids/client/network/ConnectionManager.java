@@ -4,9 +4,6 @@ import spaceroids.protocol.*;
 import spaceroids.protocol.packetData.events.*;
 import spaceroids.protocol.packetData.events.toServer.PlayerConnectRequestEvent;
 
-import java.io.IOException;
-import java.net.*;
-
 public class ConnectionManager {
   private static ConnectionManager INSTANCE = new ConnectionManager();
 

@@ -1,12 +1,13 @@
 package spaceroids.client.ui;
 
-import javafx.application.Application;
+import javafx.application.*;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
 import javafx.scene.canvas.*;
 import javafx.stage.Stage;
 import spaceroids.client.controllers.*;
 import spaceroids.client.controls.KeyboardControls;
+import spaceroids.client.events.EventSystem;
 import spaceroids.client.models.*;
 
 public class Launcher extends Application {
@@ -14,18 +15,23 @@ public class Launcher extends Application {
   private Canvas canvas;
   private Group group;
 
-  public static void startGame() {
+  public static void launchGame() {
     launch();
   }
 
   @Override
   public void start(Stage primaryStage) throws Exception {
-    startMenu(primaryStage);
-//    createGameScene(primaryStage);
-//    initGame();
+    this.primaryStage = primaryStage;
+    EventSystem.instance.setLauncher(this); //todo remove instance word
+    openMenu(primaryStage);
   }
 
-  private void startMenu(Stage primaryStage) throws Exception {
+  public void startGame() {
+    createGameScene(primaryStage);
+    initGame();
+  }
+
+  private void openMenu(Stage primaryStage) throws Exception {
     Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("fxml/menu.fxml"));
     Scene scene = new Scene(root);
     primaryStage.setScene(scene);
@@ -40,16 +46,13 @@ public class Launcher extends Application {
     gameScene.addGameObject(player);
     GameThread gameState = new GameThread(gameScene);
     gameState.start();
-    group.requestFocus();
+    Platform.runLater(() -> group.requestFocus());
   }
 
   private void createGameScene(Stage primaryStage) {
     group = new Group();
     canvas = new Canvas(300, 300);
-//    canvas.setScaleY(-1);
     group.getChildren().add(canvas);
-    Scene scene = new Scene(group);
-    primaryStage.setScene(scene);
-    primaryStage.show();
+    primaryStage.getScene().setRoot(group);
   }
 }
